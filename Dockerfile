@@ -14,7 +14,6 @@ RUN pip install --upgrade pip
 
 COPY tg_back.py tg_back.py
 COPY config.py config.py
-COPY bot.py bot.py
 COPY docker-compose.yml docker-compose.yml
 COPY Dockerfile Dockerfile
 COPY requirements.txt requirements.txt
